@@ -5,12 +5,11 @@
 The provided solution is a Ruby Command Line Application (CLI) which has been designed to follow Object Oriented Programming (OOP) notions and an architecture based on single purpose service objects and data models. 
 
 A few points worth noting:
-- Objects have been designed to lay out the domain outlined by the problem description and to maximise encapsulation and discreteness to avoid them being too tightly coupled
+- Objects have been designed to lay out the domain outlined by the problem description and to maximise encapsulation and discreteness
 - Implementation has followed Test Driven Development (TDD) principles and all objects present unit tests
 
 ### Description of the components
 
-- I have used *User Stories* to come up with the models and methods
 - **app.rb** presents the executable
 - **command_executor.rb** is a service object holding the core logic of the application. It lays out the interactions of the objects with each other and with the user's input
 - **direction.rb** is a simple model holding the state of the cardinal direction and its behaviour
